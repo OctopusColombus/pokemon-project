@@ -1,0 +1,11 @@
+
+s	java:S116"WRename this field "back_default" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞŒÁ8§­¹î®0
+w	java:S116"VRename this field "back_female" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û³®ùÿÿÿÿ8ÔÃ¹î®0
+q	java:S116"URename this field "back_shiny" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅèÇĞ8¨Ø¹î®0
+x	java:S116"\Rename this field "back_shiny_female" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¯¯İ8™ğ¹î®0
+y	java:S116"XRename this field "front_default" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸î¾üùÿÿÿÿ8§­¹î®0
+s	java:S116"WRename this field "front_female" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‰Å8ÔÏºî®0
+r	java:S116"VRename this field "front_shiny" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú“Íí8ÔÏºî®0
+~	java:S116"]Rename this field "front_shiny_female" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Š“öùÿÿÿÿ8»äºî®0
+S
+java:S1128"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8½äºî®0

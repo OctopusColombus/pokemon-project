@@ -1,0 +1,8 @@
+
+o	java:S116"URename this field "is_default" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿àª·ÿÿÿÿÿ
+}	java:S116"cRename this field "location_area_encounters" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«®Ä–ûÿÿÿÿ
+o	java:S116"ZRename this field "base_experience" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃôáÒ
+F
+java:S1948"+Make "abilities" transient or serializable.(—óÛùÿÿÿÿ
+D
+java:S1948")Make "sprites" transient or serializable.(ÅÅ×ˆùÿÿÿÿ

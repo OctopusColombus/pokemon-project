@@ -1,0 +1,6 @@
+
+}
+java:S1488E"gImmediately return this expression instead of assigning it to the temporary variable "pokeApiResponse".(ÆîÌ–
+M
+java:S2589z"7Remove this expression which always evaluates to "true"(ÀÑ–ì
+W	java:S125£"<This block of commented-out lines of code should be removed.(¾›ù»þÿÿÿÿ
