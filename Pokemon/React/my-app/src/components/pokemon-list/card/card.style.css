@@ -1,0 +1,82 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+
+  .card-container h2 {
+    font-size: 50px;
+    color : #070707;
+    font-family: 'Bigelow Rules';
+  }
+  
+  
+
+.modal-body h2 {
+  margin: 50px 10px 50px 10px;
+  font-size: 50px;
+  color: #0ccac4;
+  font-family: Bigelow Rules;
+}
+
+.modal-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background: linear-gradient(to left,
+      rgba(7, 27, 82, 1) 0%,
+      rgba(0, 128, 128, 1) 100%);
+  box-shadow: 24;
+  position: 4;
+}
+
+.catch-button {
+  --c: #18286e;
+  /* the color*/
+
+  box-shadow: 0 0 0 .1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background:
+    var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+
+.catch-button:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+
+.catch-button:active {
+  box-shadow: 0 0 9e9q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+
+.catch-button {
+  font-size: 30px;
+  color: #000000;
+  font-family: Bigelow Rules;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;
+  border: none;
+}
