@@ -11,5 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ActionResponse {
     private String name;
+    private String message;
     private boolean isSuccess;
 }

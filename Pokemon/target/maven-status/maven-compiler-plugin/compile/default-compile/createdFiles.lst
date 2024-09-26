@@ -10,13 +10,16 @@ pokemon\domain\Pokemon$PokemonBuilder.class
 pokemon\domain\Pokemon.class
 pokemon\domain\Types$TypesBuilder.class
 pokemon\config\RestTemplateRequestResponseLogger.class
+pokemon\domain\MyPokemonResponseList.class
 pokemon\entity\MyPokemon.class
+pokemon\domain\CatchRequest.class
 pokemon\entity\MyPokemon$MyPokemonBuilder.class
 pokemon\domain\Abilities.class
 pokemon\domain\MyPokemonResponse.class
 pokemon\domain\PokeFormResponse.class
 pokemon\domain\PokemonResponse$PokemonResponseBuilder.class
 pokemon\entity\MyPokemonList.class
+pokemon\domain\CatchRequest$CatchRequestBuilder.class
 pokemon\domain\Types.class
 pokemon\PokemonApplication.class
 pokemon\domain\PokeApiResponse.class
@@ -24,7 +27,9 @@ pokemon\controller\PokemonController.class
 pokemon\domain\MyPokemonResponse$MyPokemonResponseBuilder.class
 pokemon\domain\PokemonResponse.class
 pokemon\domain\PokeApiResponse$PokeApiResponseBuilder.class
+pokemon\services\PokemonServices.class
 pokemon\domain\PokeDetailResponse$PokeDetailResponseBuilder.class
 pokemon\domain\Sprites$SpritesBuilder.class
 pokemon\domain\Abilities$AbilitiesBuilder.class
+pokemon\domain\MyPokemonResponseList$MyPokemonResponseListBuilder.class
 pokemon\domain\PokeFormResponse$PokeFormResponseBuilder.class

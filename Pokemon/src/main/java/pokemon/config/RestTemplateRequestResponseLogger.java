@@ -7,18 +7,21 @@ import org.springframework.http.MediaType;
 import org.springframework.http.client.ClientHttpRequestExecution;
 import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.http.client.ClientHttpResponse;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StreamUtils;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
+@Component
 public class RestTemplateRequestResponseLogger implements ClientHttpRequestInterceptor {
     private final Logger log = LoggerFactory.getLogger(RestTemplateRequestResponseLogger.class);
 
     public RestTemplateRequestResponseLogger() {
     }
 
+    @Override
     public ClientHttpResponse intercept(HttpRequest httpRequest, byte[] bytes, ClientHttpRequestExecution clientHttpRequestExecution) throws IOException {
         this.logRequest(httpRequest, bytes);
         ClientHttpResponse response = clientHttpRequestExecution.execute(httpRequest, bytes);
